@@ -1,0 +1,136 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+html {
+    /* STEP 2: Set base font size */
+    font-size: 100%;
+    /* STEP 3: Set base line-height (leading) */
+    line-height: 1.4;
+    /* STEP 4: Set base font-family (font stack) */
+    font-family: 'Roboto Slab', serif;
+    /* Apply background color and image */
+    background: #111;
+    /* STEP 10a: Set the background image */
+    background-image: url("../images/how-much.jpg");
+    /* Ensure the background image doesn't repeat */
+    background-repeat: no-repeat;
+    /* Image credit: How much? by el patojo CC https://www.flickr.com/photos/elpatojo/250157893 */
+    /* STEP 10b: Set the background attachment */
+    background-attachment: fixed;
+    /* STEP 10c: Set the background image size to cover the viewport */
+    background-size: cover;
+}
+
+/* Optimize the declaration of font-family 'Open Sans' to specific elements */
+h2, h3, p, header p, footer p, footer small {
+    /* Set font-family to 'Open Sans' */
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Apply styles to all h1 elements */
+h1 {
+    /* Set font size */
+    font-size: 4.8rem;
+    /* Set font-family to 'Roboto Slab' */
+    font-family: 'Roboto Slab', serif;
+    /* Set font weight to normal */
+    font-weight: normal;
+}
+
+/* Apply styles to em elements within h1 */
+h1 em {
+    /* Set font style to normal */
+    font-style: normal;
+    /* Set font-family to 'Arial Black' */
+    font-family: 'Arial Black';
+}
+
+/* Reduce space between headings in page-level header H1 */
+header h1 {
+    /* Set margin to 0 */
+    margin: 0;
+}
+
+/* Bump down subhead font size at top of article */
+header h2 {
+    /* Set font size */
+    font-size: 2.4rem;
+    /* Reduce space between headings in page-level header H2 */
+    margin-top: 0;
+}
+
+/* Move h3 and p closer together in article sections */
+section h3 {
+    /* Set margin-bottom */
+    margin-bottom: 0.5rem;
+    /* Set font size */
+    font-size: 1.8rem;
+}
+
+/* Apply styles to p elements within section */
+section p {
+    /* Remove top margin */
+    margin-top: 0;
+    /* Set font size */
+    font-size: 1.6rem;
+    /* Set line-height */
+    line-height: 1.8;
+    /* Set text alignment to left */
+    text-align: left;
+    /* Enable hyphenation */
+    hyphens: auto;
+    /* Optimize legibility */
+    text-rendering: optimizeLegibility;
+    /* Set font-family to 'Open Sans' */
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Apply basic layout styles to the body */
+body {
+    /* Set min-width */
+    min-width: 480px;
+    /* Set max-width */
+    max-width: 960px;
+    /* Center the content horizontally */
+    margin: 0 auto;
+    /* Apply background color */
+    background: #eee;
+}
+
+/* Apply styles to header */
+header {
+    /* Set background color */
+    background: #5C8096;
+    /* Add whitespace - padding */
+    padding: 50px;
+    /* Add inset text effect with text shadow */
+    text-shadow: 0 1px 1px #A2C0CE;
+}
+
+/* Apply styles to section */
+section {
+    /* Add whitespace - padding */
+    padding: 0 50px;
+}
+
+/* Apply styles to footer */
+footer {
+    /* Set background color */
+    background: #333;
+    /* Set text color */
+    color: #eee;
+    /* Add whitespace - padding */
+    padding: 50px;
+    /* Add margin-top */
+    margin-top: 50px;
+}
+
+/* Apply styles to footer h3 */
+footer h3 {
+    /* Set font size */
+    font-size: 1.4em;
+}
+
+
